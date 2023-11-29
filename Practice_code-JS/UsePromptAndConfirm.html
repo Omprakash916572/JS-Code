@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome Message</title>
+</head>
+<body>
+
+
+    <!-- use confirm -->
+
+<!--   <button onclick="showWelcome()">Show Welcome Message</button>
+  <p id="welcomeMessage"></p>
+
+  <script>
+    let welcome = (question) => {
+      if (confirm(question)) {
+        return "You agreed.";
+      } else {
+        return "You canceled the execution.";
+      }
+    }
+
+    function showWelcome() {
+      const question = "Do you agree?";
+      const result = welcome(question);
+      document.getElementById("welcomeMessage").textContent = result;
+    }
+  </script> -->
+
+<!-- use prompt -->
+
+
+<h1 id="nameId"></h1>
+
+<script type="text/javascript">
+    
+    let name = prompt("Enter your Name: ");
+    document.getElementById('nameId').textContent = name;
+</script>
+
+
+
+
+</body>
+</html>

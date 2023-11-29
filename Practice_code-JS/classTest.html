@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animal Class Example</title>
+</head>
+<body>
+    <script>
+        class Animal {
+          constructor(name) {
+            this.speed = 0;
+            this.name = name;
+          }
+          run(speed) {
+            this.speed = speed;
+            alert(`${this.name} runs with speed ${this.speed}.`);
+          }
+          stop() {
+            this.speed = 0;
+            alert(`${this.name} stands still.`);
+          }
+        }
+
+        let animal = new Animal("My animal");
+        animal.run(10); // You can call methods on the "animal" object as needed.
+
+        let animal1 = new Animal("My Cat");
+        animal.run(100);
+    </script>
+</body>
+</html>

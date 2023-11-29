@@ -1,0 +1,47 @@
+
+/* body {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    margin: 0;
+} */
+
+
+
+#heading {
+    padding-top:5px; /* Add top padding */
+    padding-left: 40%;
+    color: cornflowerblue;
+   
+}
+
+.button-container {
+    padding-top: 5px; /* Add top padding to the container */
+    padding-left: 30%;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    margin: 1px; /* Optional: Add margin between buttons */
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#white {
+    background-color: white;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}

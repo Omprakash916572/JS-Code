@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title id="title">Dom Learning</title>
+    <style>
+        .heading{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+
+    
+</head>
+
+<body class="heading">
+   <div>
+        <h2 id="headingp1">Hello this first heading</h2>
+        
+        <p id="paragraph">This paragraph</p>
+
+        <ul>
+            <li class="list-item">Coffee</li>
+            <li class="list-item">Tea</li>
+            <li class="list-item">Milk</li>
+          </ul> 
+    </div>
+</body>
+</html>
+
+
+<!--
+
+getElementById
+innerText
+textContent
+innerHTML
+querySelector == return single data
+querySelectorAll  == return Array.
+
+-->
+
+
+<!-- Some Design Practice -->
+
+<!-- document.getElementById('headingp1').getAttribute('id')
+'headingp1'
+
+
+headingp1.style.background='green'
+'green'
+headingp1.style.borderRight = '20px';
+'20px'
+
+headingp1.style.borderRight = '15px'
+'15px'
+
+headingp1.style.borderRadius ='15px'
+'15px'
+headingp1.style.borderRadius ='25px'
+'25px'
+
+paragraph.style.backgroundColor='red'
+'red'
+paragraph.style.borderRadius='20px'
+'20px'
+
+
+
+headingp1
+<h2 id=​"headingp1" style=​"background:​ green;​ padding:​ 15px;​ border-right:​ 15px;​ border-radius:​ 25px;​">​Hello this first heading​</h2>​
+
+headingp1.innerText // It will give not give all content if css disable . 
+'Hello this first heading'
+
+
+headingp1.textContent // It will give all content weather if css disable . 
+'Hello this first heading'
+
+
+headingp1.innerHTML // It will give all all html tag with content
+'Hello this first heading'
+
+
+//  querySelector
+
+let firstLi =document.querySelector('li')
+firstLi
+
+firstLi.style.background= 'red'
+'red'
+
+
+// querySelectorAll
+
+
+let firstLi =document.querySelectorAll('li')
+firstLi
+NodeList(3) [li, li, li]
+let firstLi =document.querySelectorAll('li')
+firstLi
+NodeList(3) [li, li, li]
+firstLi.forEach(function name(params) {
+   
+    params.style.background= 'red'
+})
+undefined
+
+
+How to get Item from list and convert HTML collection to Array
+
+let listitem = document.getElementsByClassName('list-item')
+listitem
+
+HTMLCollection(3) [li.list-item, li.list-item, li.list-item]0: li.list-item1: li.list-item2: li.list-itemlength: 3[[Prototype]]: HTMLCollection
+
+let arr = Array.from(listitem);
+
+let arr = Array.from(listitem);
+arr[0].innerHTML
+
+'Coffee'

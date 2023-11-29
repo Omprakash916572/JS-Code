@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animal Class Example</title>
+</head>
+<body>
+    <script>
+        
+        // let=0;
+        // function inputValue(){
+        //    this.a = parseInt( prompt("a?",0));
+        //    this.b = parseInt(prompt("b?",0));
+        // } 
+
+        // function sum(){
+        //   return sum = this.a + this.b;
+        // }
+
+        // inputValue();
+        // alert(sum());
+
+        function Calculator(){
+
+            this.read =function(){
+                this.a = parseInt(prompt("a?",0));
+                this.b = parseInt(prompt("b?",0));
+            };
+
+            this.sum =  function(){
+               return this.a + this.b;
+            };
+    
+        }
+
+        let calcultorObj = new Calculator();
+        calcultorObj.read();
+        alert(calcultorObj.sum());
+
+
+
+
+    </script>
+</body>
+</html>

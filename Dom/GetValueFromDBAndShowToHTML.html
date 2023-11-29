@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id ="tid">GetDataFromDBSample</title>
+</head>
+<body style="background-color: beige;">
+    
+    <dev class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </dev>
+</body>
+<script>
+    const parent = document.querySelector(".parent");
+    // parent.children[0].style.background='green'; 
+
+    for(let i = 0; i<parent.children.length; i++){
+
+        console.log(parent.children[i].innerHTML);
+    }
+</script>
+</html>
+
+<!-- 
+const paren1t = document.querySelector(".parent");
+<dev class=​"parent">​<div class=​"day" style=​"background:​ red;​">​Monday​</div>​<div class=​"day">​Tuesday​</div>​<div class=​"day">​Wednesday​</div>​<div class=​"day">​Thursday​</div>​</dev>
+​
+paren1t
+<dev class=​"parent">​…​</dev>​<div class=​"day">​Monday​</div>​<div class=​"day">​Tuesday​</div>​<div class=​"day">​Wednesday​</div>​<div class=​"day">​Thursday​</div>​</dev>
+​
+paren1t.children[0];
+<div class=​"day">​Monday​</div>​
+
+paren1t.children[0].style.background='red'; -->

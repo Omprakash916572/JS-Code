@@ -1,0 +1,63 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+
+
+.div-heading{
+    text-align: center;
+    margin: 50px;
+
+}
+
+.main-container {
+    text-align: center;
+    margin: 50px;
+}
+
+.heading {
+    color: #333;
+}
+
+/* Style for the text input */
+#input-id {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #3498db;
+    border-radius: 20px;
+    width: 200px;
+}
+
+#btn {
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    width: 150px;
+    background-color: lightblue;
+}
+
+
+
+
+
+#error{
+    color: tomato
+}
+
+#restart {
+    display: none; /* Initially hide the restart div */
+}
+
+restart {
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    width: 140px;
+    background-color: lightblue;
+    padding-left: 70%;
+    padding-left: 40%;
+}

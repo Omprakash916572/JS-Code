@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="div-heading">
+            <h3 class="heading"> Number Guessing Game </h3>
+        
+            <h4 class="heading"> Try and guess the number between 0 to 100 Guessing Game </h4>
+            <h4 class="heading"> You have a 10 attempt for guess the number. </h4>
+        </div>
+        
+        <!-- </br> -->
+           <form class="form">
+
+            <div class="main-container">
+                <h2 id="heading"> Guess The Number </h2>
+                <div id="winner"></div>
+                <div id="error"></div>
+            <p> <input id="input-id" type="text"></p>
+            <button id="btn">Submit Guess</button>
+
+           <div class="restart">
+            <a id="restart" href="#"> <!-- You can specify a proper URL in the href attribute -->
+                <span>Do You Want Start Again</span>
+              </a>
+           </div>
+            </div>
+           
+            <div class="main-container">
+                <div id="pg"> <span>Previous Guesses : </span>  </div>
+                <div id="rm"> <span>Remanning Guesses : </span> 10</div>
+            </div>
+
+            <script src="project-03.js"></script>
+           </form>
+        
+    </div>
+</body>
+</html>
